@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>CURRENCY CONVERTOR</title>
+  </head>
+  <body>
+    <div class="container">
+      <div><h1>CURRENCY CONVERTOR</h1></div>
+    
+        <div class="box-1">
+          <b>ENTER AMOUNT</b>
+          <input type="number" min="1" id="amount" />
+        </div>
+        <div class="box-2">
+          <div class="from">
+            <div class="frombox">
+              <p>from</p>
+              <img src="https://flagsapi.com/AE/flat/64.png" id="fromimg" />
+            </div>
+            <div class="fromselect">
+              <select class="fromcountry">
+                
+              </select>
+            </div>
+          </div>
+          <div class="to">
+            <div class="tobox">
+              <p>to</p>
+              <img src="https://flagsapi.com/AE/flat/64.png" id="toimg" />
+            </div>
+            <div class="toselect">
+              <select class="tocountry">
+                
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="box-3">
+          <input type="submit" value="CALCULATE" id="check" />
+        </div>
+        <div class="box-4">
+            <p class><h4 class="result">1 INR =  USD</h4></p>
+        </div>
+      
+    </div>
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
